@@ -1,0 +1,142 @@
+ *{
+    box-sizing: border-box;
+  }
+body  {
+    overflow-x: hidden;
+    max-width: 100%;
+
+background-color: rgb(223, 179, 179);
+}
+
+.card  {
+    padding: 10px;
+    margin: auto;
+    border-radius: 1rem;
+display: flex;
+
+
+}
+
+
+
+
+.card   p   {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    color: crimson;
+}
+
+
+.lista-hed  {
+    display: flex;
+};
+ul  {   list-style: none;
+    display: flex;
+}
+
+ li  {
+    list-style: none;  
+}
+
+a {
+    text-decoration: none;
+   
+    padding: 1rem; 
+    
+}
+a:hover{color: crimson;};
+
+
+.card-text strong {
+   
+    color: black;
+}
+
+.accordion-item {
+    border-radius: 30px;
+}
+
+.conteiner-registro {
+ justify-content: center;
+ max-width: 540px;
+ max-height:400px ;
+ margin: 0;
+ display: flex;
+}
+
+form {
+    width: 60%;
+    margin: 60px auto;
+    background: #efefef;
+    padding: 60px 120px 80px 120px;
+    text-align: center;
+    -webkit-box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+  }
+  label {
+    display: block;
+    position: relative;
+    margin: 40px 0px;
+  }
+  .label-txt {
+    position: absolute;
+    top: -1.6em;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: .8em;
+    letter-spacing: 1px;
+    color: rgb(120,120,120);
+    transition: ease .3s;
+  }
+  .input {
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+  }
+  
+  .line-box {
+    position: relative;
+    width: 100%;
+    height: 2px;
+    background: #BCBCBC;
+  }
+  
+  .line {
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #8BC34A;
+    transition: ease .6s;
+  }
+  
+  .input:focus + .line-box .line {
+    width: 100%;
+  }
+  
+  .label-active {
+    top: -3em;
+  }
+  
+  button {
+    display: inline-block;
+    padding: 12px 24px;
+    background: rgb(220,220,220);
+    font-weight: bold;
+    color: rgb(120,120,120);
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: ease .3s;
+  }
+  
+  button:hover {
+    background: #8BC34A;
+    color: #ffffff;
+  }
+/* estilo de la pagina.
