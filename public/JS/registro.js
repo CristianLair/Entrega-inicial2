@@ -7,7 +7,7 @@ const body = Object.fromEntries(formData);
 const stringJson = JSON.stringify(body);
 
 
-fetch('http://localhost:3001/registrarse',   {
+fetch('https://entrega-website.herokuapp.com/registrarse',   {
    
    
     method:'POST',
