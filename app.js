@@ -2,6 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const app = express();
 const path = require('path');
+const port = process.env.PORT || 3000 ;
 const { link } = require('fs');
 const data = require('./utils/data')
 const title = 'Facultad de ciencias naturales';
@@ -69,8 +70,8 @@ app.get('/registrarse', (req,res)=>{
     })
 });
 
-app.listen(3000, ()=> {
-    console.log('servidor levantado')
+app.listen(port, () => {
+    console.log(`Funcionando en http://localhost:${port}`);
 })
 
 

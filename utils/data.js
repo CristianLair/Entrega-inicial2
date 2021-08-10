@@ -1,7 +1,7 @@
 const request = require('postman-request');
 
 const getRegistro = (callback) => {
-    request('http://localhost:3001/registrarse', (error, res, body) => {
+    request('https://entrega-website.herokuapp.com/registros', (error, res, body) => {
         if(error){
           console.log('Error', error)  
           return callback(error, undefined);
