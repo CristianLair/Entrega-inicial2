@@ -10,7 +10,7 @@ Keywords: NodeJS,EJS,API,MongoDB,Heroku
 Levantar el proyecto (facultad)
 
 1. Descargar el repo
-2. Instalar modulos en el /website y en la /api mediante npm i
+2. Instalar modulos en el /website  mediante npm i
 
 Para que funcione el sitio es necesario primero utilizar npm i en api
 
